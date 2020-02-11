@@ -1,0 +1,172 @@
+* body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/********************************
+********   HEADER     ***********
+********************************/
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    background-color: #ffdd40;
+    width: 100%;
+    padding: 1% 0% 0 8%;
+}
+a img{
+    width: 100px;
+    height: 40px;
+}
+
+
+.header-links{
+    padding: 0.3% 10% 0 65%;
+}
+
+.header-links a{
+    color: black;
+    text-decoration: none;
+    padding: 7% 7% 7% 7%;
+    border: 1px solid black;
+    transition: .6s;
+    font-weight: bold;
+}
+
+.header-links a:hover{
+    background-color: black;
+    color: #ffdd40;
+    transition: .6s;
+}
+
+.header-links a:active{
+    background-color: rgb(31, 31, 31);
+}
+
+/********************************
+******** LANDING TEXT ***********
+********************************/
+
+.landing{
+    text-align: center;
+    height: 200px;
+    padding: 15% 0 0 0; 
+    background-color: #ffdd40;
+}
+
+.land-text{
+    padding-bottom: 2%;
+}
+
+.landing .proceed a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 10%;
+    padding: 1% 3% 1% 3%;
+    transition: .6s;
+}
+
+.landing .proceed a:hover{
+    box-shadow: 1px 1px 3px black;
+    transition: .6s;
+}
+
+.landing .proceed a:active{
+    background-color: #e4c53a;
+}
+
+/********************************
+********    Footer    ***********
+********************************/
+
+footer{
+	background: #333;
+	padding-bottom: 60px;
+}
+#footer{
+	display: flex;
+}
+.about-us{
+	color: white;
+	font-family: sans-serif;
+	padding-left: 20%;
+}
+.about-us p{
+	color: #737373;
+	font-size: 12px;
+	width: 150px;
+	line-height: 20px;
+}
+/* about-us */
+
+.Quick-links{
+	color: white;
+	padding-left: 15%;
+}
+.Quick-links a{
+	text-decoration: none;
+	color: #ffdd40;
+}
+.Quick-links a:hover{
+    color: #ffd51b;
+}
+/* Quick-links  */
+
+
+.follow{
+	padding-left: 10%;
+	color: white;
+}
+.media{
+	display: flex; 
+}
+.socms a{
+	color: #737373 ;
+	transition: .6s;
+}
+.socms a:hover{
+	color: white;
+	transition: .6s;
+}
+.socm a{
+	padding-left: 20px;
+}
+/* suscribe */
+.suscribe input{
+	background: transparent;
+	border-color: #ffdd40;
+	border-radius: 5px 0px 0px 5px;
+	padding: 10px;
+	border-right: 0px;
+	outline: none;
+	transition: .6s;
+}
+.suscribe input:hover{
+	box-shadow: 1px 1px 5px #ffdd40;
+	transition: .6s;
+}
+.suscribe a{
+	text-decoration: none;
+	background: white;
+	color: #333;
+	padding: 10px;
+	border-radius: 0px 10px 10px 0px;
+}
+.input{
+	display: flex;
+}
+/* suscribe */
+
+.copyw{
+	border-top: 1px solid;
+	margin: 70px 20% 30px 20%;
+	color: white;
+	font-size: 12px;
+}
+.copyw span{
+	color: red;
+}
