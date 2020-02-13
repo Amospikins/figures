@@ -51,8 +51,8 @@ a img{
 
 .landing{
     text-align: center;
-    height: 25%;
-    padding: 15% 0 0 0; 
+    height: fit-content;
+    padding: 10% 0 3% 0; 
     background-color: #ffdd40;
 }
 
@@ -79,13 +79,39 @@ a img{
     background-color: #e4c53a;
 }
 
+/*Content Body*/
+
+.content-body{
+	
+}
+
+.content{
+	font-size: 120%;
+	font-weight: bold;
+	font-family: sans-serif;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.content img{
+	width: 30%;
+	height: 300px;
+}
+.content p{
+	padding-top: 7%;
+	margin-left: 6%;
+	width: 50%;
+}
+
 /********************************
 ********    Footer    ***********
 ********************************/
 
 footer{
-	position: absolute;
+	display: inline-block;
 	bottom: 0;
+	left: 0;
 	width: 100%;
 	background: #333;
 }
@@ -135,7 +161,7 @@ footer{
 	transition: .6s;
 }
 .subscribe input:hover{
-	box-shadow: 1px 1px 5px #ffdd40;
+	box-shadow: 1px 1px 4px #ffdd40;
 	transition: .6s;
 }
 .subscribe a{
@@ -144,6 +170,12 @@ footer{
 	color: #333;
 	padding: 10px;
 	border-radius: 0px 10px 10px 0px;
+	transition: .6s;
+}
+.subscribe a:hover{
+	background-color: #ffdd40;
+	color: black	;
+	transition: .6s;
 }
 .input{
 	display: flex;
