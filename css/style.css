@@ -5,44 +5,77 @@
 }
 
 /********************************
-********   HEADER     ***********
+**********   HEADER   ***********
 ********************************/
 
 .header{
     display: flex;
-    flex-wrap: wrap;
     position: fixed;
     background-color: #ffdd40;
-    width: 100%;
-    padding: 1% 0% 0 8%;
+	width: 100%;
+	border-bottom: 1px solid black;
+    padding: 1% 0% 0% 8%;
 }
-a img{
+.logo img{
     width: 100px;
     height: 40px;
 }
 
-
 .header-links{
-    padding: 0.3% 10% 0 65%;
+	display: flex;
+	position: absolute;
+	margin:0.5% 0 0 55%;
 }
 
-.header-links a{
-    color: black;
+.header-links .link{
+	color: black;
+	text-align: right;
     text-decoration: none;
-    padding: 7% 7% 7% 7%;
+    padding: 10px 10px 10px 10px;
     border: 1px solid black;
-    transition: .6s;
+	transition: .5s;
     font-weight: bold;
 }
 
-.header-links a:hover{
+.header-links .link:hover{
     background-color: black;
     color: #ffdd40;
-    transition: .6s;
+    transition: .5s;
 }
 
-.header-links a:active{
+.header-links .link:active{
     background-color: rgb(31, 31, 31);
+}
+
+/*Dropdown Menu*/
+.link2{
+	position: relative;
+  	display: inline-block;
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: white;
+	min-width: 100px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a {
+	color: black;
+	text-align: center;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+.dropdown-content a:hover {
+	background-color: #ffdd40;
+	color: black;
+}
+.link2:hover .dropdown-content {
+	display: block;
+}
+.link2:hover .dropbtn{
+	background-color: black;
+	color: #ffdd40;
 }
 
 /********************************
